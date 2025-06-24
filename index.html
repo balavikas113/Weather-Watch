@@ -5,12 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <input type="text" id="city" placeholder="Enter city name">
-        <button id="search">Search</button>
-        <div id="weather-data"></div>
+        <header class="header">
+            <h1 class="app-title">🌤️ Weather Dashboard</h1>
+            <p class="app-subtitle">Get real-time weather information for any city</p>
+        </header>
+        
+        <main class="main-content">
+            <section class="search-section">
+                <div class="search-container">
+                    <input type="text" id="city" placeholder="Enter city name (e.g., London, New York)" autocomplete="off">
+                    <button id="search" type="button">
+                        <span class="search-text">Search</span>
+                        <span class="search-icon">🔍</span>
+                    </button>
+                </div>
+            </section>
+            
+            <section class="weather-section">
+                <div id="weather-data" class="weather-container">
+                    <div class="welcome-message">
+                        <div class="welcome-icon">🌍</div>
+                        <h2>Welcome to Weather Dashboard</h2>
+                        <p>Enter a city name above to get started with real-time weather information</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="footer">
+            <p>Powered by <a href="https://openweathermap.org/" target="_blank" rel="noopener">OpenWeatherMap API</a></p>
+        </footer>
     </div>
     <script src="script.js"></script>
 </body>
