@@ -9,10 +9,7 @@ A modern, responsive weather dashboard that provides real-time weather informati
 
 - **Real-time Weather Data**: Get current weather conditions for any city
 - **Comprehensive Information**: Temperature, humidity, wind speed, pressure, visibility, sunrise/sunset times
-- **Beautiful UI**: Modern glassmorphism design with smooth animations
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
-- **Error Handling**: User-friendly error messages and loading states
-- **Keyboard Support**: Press Enter to search
+  
 - **Weather Icons**: Visual weather icons from OpenWeatherMap
 
 ## 🚀 Live Demo
